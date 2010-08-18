@@ -14,6 +14,8 @@ destinations of the syncing.
 * dulwich (version 0.6.1 or greater recommended for recent fixes):
   http://samba.org/~jelmer/dulwich/
 * hg-git: http://github.com/schacon/hg-git
+  (if you have spaces in your mercurial tags, you may want this version:
+   git://github.com/schacon/hg-git)
 * simplejson for config.json parsing
 
 # Setup and use
@@ -56,7 +58,7 @@ alias:
          User git
          IdentityFile /Users/lth/dev/hg2github/id_rsa
 
-**NOTE:** IdenityFile is a path to the private key generated above.
+**NOTE:** IdentityFile is a path to the private key generated above.
 
 # Bugs/Caveats
 
@@ -74,3 +76,5 @@ alias:
 * git allows fewer chars in tags than hg, so if there are tags with spaces in your mercurial
   repository, they won't be properly sync'd.  You'll get error messages like:
   error: refusing to create funny ref 'refs/tags/last change before major code purge/reorg' remotely
+  A solution is to grab the patch from this fork of hg-git:
+  git://github.com/schacon/hg-git
