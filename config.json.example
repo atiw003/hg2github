@@ -50,7 +50,7 @@
     "homepage": "http://mozillalabs.com/raindrop/"
   },
   "snowl": {
-  "desc": "Examined several different ways to integrate online conversations into Firefox’s user interface",
+  "desc": "Examined several different ways to integrate online conversations into Firefox's user interface",
     "src": "http://hg.mozilla.org/labs/snowl",
     "homepage": "http://mozillalabs.com/snowl/"
   },
