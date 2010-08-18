@@ -1,106 +1,163 @@
 {
+  "gh_user": "mozillalabs-syncer",
+  "gh_token": "vewy_vewy_sekret",
+  "gh_tgt_acct": "mozillalabs",
+  "repos": {         
   "bespin": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/bespin",
-    "dst": "github.com/mozillalabs/bespin"
+    "dst": "github.com/mozillalabs/bespin",
+    "homepage": "http://mozillalabs.com"
   },
   "bespinclient": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/bespinclient",
-    "dst": "github.com/mozillalabs/bespinclient"
+    "dst": "github.com/mozillalabs/bespinclient",
+    "homepage": "http://mozillalabs.com"
   },
   "bespinjavaserver": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/bespinjavaserver",
-    "dst": "github.com/mozillalabs/bespinjavaserver"
+    "dst": "github.com/mozillalabs/bespinjavaserver",
+    "homepage": "http://mozillalabs.com"
   },
   "bespinserver": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/bespinserver",
-    "dst": "github.com/mozillalabs/bespinserver"
+    "dst": "github.com/mozillalabs/bespinserver",
+    "homepage": "http://mozillalabs.com"
   },
   "jetpack": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/jetpack",
-    "dst": "github.com/mozillalabs/jetpack"
+    "dst": "github.com/mozillalabs/jetpack",
+    "homepage": "http://mozillalabs.com"
   },
   "jetpack-sdk": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/jetpack-sdk",
-    "dst": "github.com/mozillalabs/jetpack-sdk"
+    "dst": "github.com/mozillalabs/jetpack-sdk",
+    "homepage": "http://mozillalabs.com"
   },
   "jsmodules": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/jsmodules",
-    "dst": "github.com/mozillalabs/jsmodules"
+    "dst": "github.com/mozillalabs/jsmodules",
+    "homepage": "http://mozillalabs.com"
   },
   "people": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/people",
-    "dst": "github.com/mozillalabs/people"
+    "dst": "github.com/mozillalabs/people",
+    "homepage": "http://mozillalabs.com"
   },
   "personas": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/personas",
-    "dst": "github.com/mozillalabs/personas"
+    "dst": "github.com/mozillalabs/personas",
+    "homepage": "http://mozillalabs.com"
   },
   "raindrop": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/raindrop",
-    "dst": "github.com/mozillalabs/raindrop"
+    "dst": "github.com/mozillalabs/raindrop",
+    "homepage": "http://mozillalabs.com"
   },
   "raindrop-dev": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/raindrop-dev",
-    "dst": "github.com/mozillalabs/raindrop-dev"
+    "dst": "github.com/mozillalabs/raindrop-dev",
+    "homepage": "http://mozillalabs.com"
   },
   "snowl": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/snowl",
-    "dst": "github.com/mozillalabs/snowl"
+    "dst": "github.com/mozillalabs/snowl",
+    "homepage": "http://mozillalabs.com"
   },
   "tabcandy": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/tabcandy",
-    "dst": "github.com/mozillalabs/tabcandy"
+    "dst": "github.com/mozillalabs/tabcandy",
+    "homepage": "http://mozillalabs.com"
   },
   "testpilot": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/testpilot",
-    "dst": "github.com/mozillalabs/testpilot"
+    "dst": "github.com/mozillalabs/testpilot",
+    "homepage": "http://mozillalabs.com"
   },
   "testpilot-analysis": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/testpilot-analysis",
-    "dst": "github.com/mozillalabs/testpilot-analysis"
+    "dst": "github.com/mozillalabs/testpilot-analysis",
+    "homepage": "http://mozillalabs.com"
   },
   "testpilotweb": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/testpilotweb",
-    "dst": "github.com/mozillalabs/testpilotweb"
+    "dst": "github.com/mozillalabs/testpilotweb",
+    "homepage": "http://mozillalabs.com"
   },
   "th": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/th",
-    "dst": "github.com/mozillalabs/th"
+    "dst": "github.com/mozillalabs/th",
+    "homepage": "http://mozillalabs.com"
   },
   "vapour": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/vapour",
-    "dst": "http://github.com/mozillalabs/vapour"
+    "dst": "http://github.com/mozillalabs/vapour",
+    "homepage": "http://mozillalabs.com"
   },
   "weave-backup": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weave-backup",
-    "dst": "http://github.com/mozillalabs/weave-backup"
+    "dst": "http://github.com/mozillalabs/weave-backup",
+    "homepage": "http://mozillalabs.com"
   },
   "weave-identity": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weave-identity",
-    "dst": "http://github.com/mozillalabs/weave-identity"
+    "dst": "http://github.com/mozillalabs/weave-identity",
+    "homepage": "http://mozillalabs.com"
   },
   "weaveclient-python": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weaveclient-python",
-    "dst": "http://github.com/mozillalabs/weaveclient-python"
+    "dst": "http://github.com/mozillalabs/weaveclient-python",
+    "homepage": "http://mozillalabs.com"
   },
   "weaveserver-identity": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weaveserver-identity",
-    "dst": "http://github.com/mozillalabs/weaveserver-identity"
+    "dst": "http://github.com/mozillalabs/weaveserver-identity",
+    "homepage": "http://mozillalabs.com"
   },
   "weaveserver-obsolote": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weaveserver-obsolote",
-    "dst": "http://github.com/mozillalabs/weaveserver-obsolote"
+    "dst": "http://github.com/mozillalabs/weaveserver-obsolote",
+    "homepage": "http://mozillalabs.com"
   },
   "weaveserver-openid": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weaveserver-openid",
-    "dst": "http://github.com/mozillalabs/weaveserver-openid"
+    "dst": "http://github.com/mozillalabs/weaveserver-openid",
+    "homepage": "http://mozillalabs.com"
   },
   "weaveweb": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/weaveweb",
-    "dst": "http://github.com/mozillalabs/weaveweb"
+    "dst": "http://github.com/mozillalabs/weaveweb",
+    "homepage": "http://mozillalabs.com"
   },
   "webfinger-addon": {
+  "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/webfinger-addon",
-    "dst": "http://github.com/mozillalabs/webfinger-addon"
+    "dst": "http://github.com/mozillalabs/webfinger-addon",
+    "homepage": "http://mozillalabs.com"
   }
+ }
 }

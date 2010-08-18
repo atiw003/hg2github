@@ -2,7 +2,7 @@ Overview
 
 This directory contains a small pile of scripts and instructions to 
 stand up automatic synchronization from some number of mercurial
-repositories to some number of git repositories.
+repositories to some number of repositories on github.
 
 The config.json file that lives here specifies both the sources and 
 destinations of the syncing.
