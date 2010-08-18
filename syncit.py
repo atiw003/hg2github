@@ -7,9 +7,9 @@ import urllib2
 import urllib
 
 # determine path to configuration file
-cwd = os.path.dirname(os.path.abspath(sys.argv[0]))
-cfg_file = os.path.join(cwd, "config.json")
-work_dir = os.path.join(cwd, "work")
+basedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+cfg_file = os.path.join(basedir, "config.json")
+work_dir = os.path.join(basedir, "work")
 
 if not os.path.isfile(cfg_file):
     raise RuntimeError("config file missing, expected at: " + cfg_file)
