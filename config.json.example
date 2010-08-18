@@ -5,117 +5,112 @@
   "gh_tgt_acct": "mozillalabs",
   "repos": {         
   "bespin": {
-  "desc": "sample desc",
+    "desc": "The Bespin project is building a web-based code editor using the emerging HTML5 standard. The editor is easily extensible with JavaScript and can be used in your own applications.",
     "src": "http://hg.mozilla.org/labs/bespin",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://bespin.mozillalabs.com"
   },
   "bespinclient": {
-  "desc": "sample desc",
+    "desc": "The Bespin project is building a web-based code editor using the emerging HTML5 standard. The editor is easily extensible with JavaScript and can be used in your own applications.",
     "src": "http://hg.mozilla.org/labs/bespinclient",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://bespin.mozillalabs.com"
   },
   "bespinserver": {
-  "desc": "sample desc",
+    "desc": "The Bespin project is building a web-based code editor using the emerging HTML5 standard. The editor is easily extensible with JavaScript and can be used in your own applications.",
     "src": "http://hg.mozilla.org/labs/bespinserver",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://bespin.mozillalabs.com"
   },
   "jetpack": {
-  "desc": "sample desc",
+    "desc": "Jetpack is a project to make it easy to build Firefox add-ons using common web technologies like HTML, JavaScript, and CSS.",
     "src": "http://hg.mozilla.org/labs/jetpack",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://jetpack.mozillalabs.com"
   },
   "jetpack-sdk": {
-  "desc": "sample desc",
+    "desc": "Jetpack is a project to make it easy to build Firefox add-ons using common web technologies like HTML, JavaScript, and CSS.",
     "src": "http://hg.mozilla.org/labs/jetpack-sdk",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://jetpack.mozillalabs.com"
   },
   "jsmodules": {
-  "desc": "sample desc",
+    "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/jsmodules",
     "homepage": "http://mozillalabs.com"
   },
   "people": {
-  "desc": "sample desc",
+    "desc": "A Mozilla Labs Experiment: Adds a database of information about people to Firefox.",
     "src": "http://hg.mozilla.org/labs/people",
     "homepage": "http://mozillalabs.com"
   },
   "personas": {
-  "desc": "sample desc",
+    "desc": "Personas are easy-to-use themes that let you personalize the look of your Firefox",
     "src": "http://hg.mozilla.org/labs/personas",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://www.getpersonas.com/en-US/"
   },
   "raindrop": {
-  "desc": "sample desc",
+    "desc": "Raindrop is an exploration in messaging innovation being led by the team responsible for Thunderbird, to explore new ways to use Open Web technologies to create useful, compelling messaging experiences.",
     "src": "http://hg.mozilla.org/labs/raindrop",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/raindrop/"
   },
   "snowl": {
-  "desc": "sample desc",
+  "desc": "Examined several different ways to integrate online conversations into Firefox’s user interface",
     "src": "http://hg.mozilla.org/labs/snowl",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/snowl/"
   },
   "tabcandy": {
-  "desc": "sample desc",
+    "desc": "TabCandy is a project that helps users deal with the complex ways the modern web is used by providing spatial, touchable groups of tabs and tab groups.",
     "src": "http://hg.mozilla.org/labs/tabcandy",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://www.azarask.in/blog/post/tabcandy/"
   },
   "testpilot": {
-  "desc": "sample desc",
+    "desc": "Collecting and publishing structured usage data and user feedback through Firefox to build better products",
     "src": "http://hg.mozilla.org/labs/testpilot",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/testpilot/"
   },
   "testpilot-analysis": {
-  "desc": "sample desc",
+    "desc": "Collecting and publishing structured usage data and user feedback through Firefox to build better products",
     "src": "http://hg.mozilla.org/labs/testpilot-analysis",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/testpilot/"
   },
   "testpilotweb": {
-  "desc": "sample desc",
+  "desc": "Collecting and publishing structured usage data and user feedback through Firefox to build better products",
     "src": "http://hg.mozilla.org/labs/testpilotweb",
-    "homepage": "http://mozillalabs.com"
-  },
-  "th": {
-  "desc": "sample desc",
-    "src": "http://hg.mozilla.org/labs/th",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/testpilot/"
   },
   "weave-backup": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weave-backup",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weave-identity": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weave-identity",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weaveclient-python": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weaveclient-python",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weaveserver-identity": {
-  "desc": "sample desc",
+  "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weaveserver-identity",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weaveserver-obsolote": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weaveserver-obsolote",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weaveserver-openid": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weaveserver-openid",
-    "homepage": "http://mozillalabs.com"
+    "homepage": "http://mozillalabs.com/sync/"
   },
   "weaveweb": {
-  "desc": "sample desc",
+    "desc": "Building services to increase user access and control over personal data and information.",
     "src": "http://hg.mozilla.org/labs/weaveweb",
     "homepage": "http://mozillalabs.com"
   },
   "webfinger-addon": {
-  "desc": "sample desc",
+    "desc": "",
     "src": "http://hg.mozilla.org/labs/webfinger-addon",
     "homepage": "http://mozillalabs.com"
   }
