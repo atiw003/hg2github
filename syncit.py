@@ -63,6 +63,11 @@ def createRepoOnGithub(name, desc, homepage, acct, auth_user, auth_token):
     print urllib2.urlopen(request).read()
     return True
 
+def tryAndWhine(cmd, whinery):
+    x = os.system(cmd + " 2>&1 > /dev/null")
+    if not x == 0:
+        print whinery
+
 # now let's hit github and get a list of repositories already created there
 # under our target user
 existingRepos = getExistingGithubRepos(gh_tgt_acct)
@@ -85,14 +90,14 @@ for repo in j['repos']:
         # in this case, the directory already exists, we'll assume that we've
         # already cloned the repository and pull updates
         os.chdir(tgt_dir)
-        os.system("hg pull \"" + src + "\"")
+        tryAndWhine("hg pull \"" + src + "\"", "Failed to pull from " + src)
     else:
         # the directory doesn't exist!  We should clone fresh 
-        os.system("hg clone \"" + src + "\" \"" + tgt_dir + "\"")
+        tryAndWhine("hg clone \"" + src + "\" \"" + tgt_dir + "\"", "Failed to clone from " + src)
         os.chdir(tgt_dir)
         # after clone, make a bookmark of default hg branch so master
         # is created upon push to git
-        os.system("hg bookmark -r default master")
+        tryAndWhine("hg bookmark -r default master", "Failed to set master 'bookmark'")
 
     # now, does the repository exist on github?  If not, create it
     pushto = gh_user
@@ -109,4 +114,5 @@ for repo in j['repos']:
 
     # now it's time to push changes over to github
     # TODO: figure out how to feed privkey and uname to ssh run via git
-    os.system("hg push git+ssh://" + gh_ssh_alias + "/" + pushto + "/" + repo)
+    tryAndWhine("hg push git+ssh://" + gh_ssh_alias + "/" + pushto + "/" + repo,
+                "failed attempting to push " + repo)
