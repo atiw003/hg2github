@@ -49,6 +49,7 @@ def createRepoOnGithub(name, desc, homepage, acct, auth_user, auth_token):
     # a repository in 'acct' where auth_user != acct.  At first blush it doesn't
     # appear this is supported in the github WSAPI:
     # http://develop.github.com/p/repo.html
+    desc = desc + " (the " + acct + "/ mirror is READ ONLY, synchronized from mercurial)"
     query_args = {
         'name': name,
         'description': desc,
