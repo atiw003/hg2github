@@ -14,6 +14,7 @@ destinations of the syncing.
 * dulwich (version 0.6.1 or greater recommended for recent fixes):
   http://samba.org/~jelmer/dulwich/
 * hg-git: http://github.com/schacon/hg-git
+* simplejson for config.json parsing
 
 # Setup and use
 
