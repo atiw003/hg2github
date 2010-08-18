@@ -1,0 +1,2 @@
+* print contents of stdout and stderr when an hg invocation returns
+  a non-zero exit code for simplified debugging
