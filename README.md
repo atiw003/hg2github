@@ -58,7 +58,7 @@ alias:
 
 **NOTE:** IdenityFile is a path to the private key generated above.
 
-# Bugs
+# Bugs/Caveats
 
 * All of the bugs in dulwich are also bugs of this script
 * Github's API doesn't support creation of repositories in an acct other than of the
@@ -68,3 +68,9 @@ alias:
   need to manually fork repositories over from the user to the organization after
   their creation.  Subsequent to that the `syncit.py` script should push to the correct
   location.
+* hg-git, and git specifically, don't really like repositories with no commits.  Attempting
+  to sync from such repositories may fail.  But then, it's really kinda of a useless thing to
+  do, anyway. 
+* git allows fewer chars in tags than hg, so if there are tags with spaces in your mercurial
+  repository, they won't be properly sync'd.  You'll get error messages like:
+  error: refusing to create funny ref 'refs/tags/last change before major code purge/reorg' remotely
