@@ -1,0 +1,106 @@
+{
+  "bespin": {
+    "src": "http://hg.mozilla.org/labs/bespin",
+    "dst": "github.com/mozillalabs/bespin"
+  },
+  "bespinclient": {
+    "src": "http://hg.mozilla.org/labs/bespinclient",
+    "dst": "github.com/mozillalabs/bespinclient"
+  },
+  "bespinjavaserver": {
+    "src": "http://hg.mozilla.org/labs/bespinjavaserver",
+    "dst": "github.com/mozillalabs/bespinjavaserver"
+  },
+  "bespinserver": {
+    "src": "http://hg.mozilla.org/labs/bespinserver",
+    "dst": "github.com/mozillalabs/bespinserver"
+  },
+  "jetpack": {
+    "src": "http://hg.mozilla.org/labs/jetpack",
+    "dst": "github.com/mozillalabs/jetpack"
+  },
+  "jetpack-sdk": {
+    "src": "http://hg.mozilla.org/labs/jetpack-sdk",
+    "dst": "github.com/mozillalabs/jetpack-sdk"
+  },
+  "jsmodules": {
+    "src": "http://hg.mozilla.org/labs/jsmodules",
+    "dst": "github.com/mozillalabs/jsmodules"
+  },
+  "people": {
+    "src": "http://hg.mozilla.org/labs/people",
+    "dst": "github.com/mozillalabs/people"
+  },
+  "personas": {
+    "src": "http://hg.mozilla.org/labs/personas",
+    "dst": "github.com/mozillalabs/personas"
+  },
+  "raindrop": {
+    "src": "http://hg.mozilla.org/labs/raindrop",
+    "dst": "github.com/mozillalabs/raindrop"
+  },
+  "raindrop-dev": {
+    "src": "http://hg.mozilla.org/labs/raindrop-dev",
+    "dst": "github.com/mozillalabs/raindrop-dev"
+  },
+  "snowl": {
+    "src": "http://hg.mozilla.org/labs/snowl",
+    "dst": "github.com/mozillalabs/snowl"
+  },
+  "tabcandy": {
+    "src": "http://hg.mozilla.org/labs/tabcandy",
+    "dst": "github.com/mozillalabs/tabcandy"
+  },
+  "testpilot": {
+    "src": "http://hg.mozilla.org/labs/testpilot",
+    "dst": "github.com/mozillalabs/testpilot"
+  },
+  "testpilot-analysis": {
+    "src": "http://hg.mozilla.org/labs/testpilot-analysis",
+    "dst": "github.com/mozillalabs/testpilot-analysis"
+  },
+  "testpilotweb": {
+    "src": "http://hg.mozilla.org/labs/testpilotweb",
+    "dst": "github.com/mozillalabs/testpilotweb"
+  },
+  "th": {
+    "src": "http://hg.mozilla.org/labs/th",
+    "dst": "github.com/mozillalabs/th"
+  },
+  "vapour": {
+    "src": "http://hg.mozilla.org/labs/vapour",
+    "dst": "http://github.com/mozillalabs/vapour"
+  },
+  "weave-backup": {
+    "src": "http://hg.mozilla.org/labs/weave-backup",
+    "dst": "http://github.com/mozillalabs/weave-backup"
+  },
+  "weave-identity": {
+    "src": "http://hg.mozilla.org/labs/weave-identity",
+    "dst": "http://github.com/mozillalabs/weave-identity"
+  },
+  "weaveclient-python": {
+    "src": "http://hg.mozilla.org/labs/weaveclient-python",
+    "dst": "http://github.com/mozillalabs/weaveclient-python"
+  },
+  "weaveserver-identity": {
+    "src": "http://hg.mozilla.org/labs/weaveserver-identity",
+    "dst": "http://github.com/mozillalabs/weaveserver-identity"
+  },
+  "weaveserver-obsolote": {
+    "src": "http://hg.mozilla.org/labs/weaveserver-obsolote",
+    "dst": "http://github.com/mozillalabs/weaveserver-obsolote"
+  },
+  "weaveserver-openid": {
+    "src": "http://hg.mozilla.org/labs/weaveserver-openid",
+    "dst": "http://github.com/mozillalabs/weaveserver-openid"
+  },
+  "weaveweb": {
+    "src": "http://hg.mozilla.org/labs/weaveweb",
+    "dst": "http://github.com/mozillalabs/weaveweb"
+  },
+  "webfinger-addon": {
+    "src": "http://hg.mozilla.org/labs/webfinger-addon",
+    "dst": "http://github.com/mozillalabs/webfinger-addon"
+  }
+}
