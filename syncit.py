@@ -84,7 +84,7 @@ for repo in j['repos']:
     tgt_dir = os.path.join(work_dir, repo)
     src = j['repos'][repo]['src']
     homepage = j['repos'][repo]['homepage']
-    desc = j['repos'][repo]['homepage']
+    desc = j['repos'][repo]['desc']
 
     if os.path.isdir(tgt_dir):
         # in this case, the directory already exists, we'll assume that we've
