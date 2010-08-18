@@ -31,7 +31,7 @@ if not type(j) is dict or not j.has_key('repos') or not type(j['repos']) is dict
     raise RuntimeError("malformed configuration file (requires a 'repos' key)")
 
 for k in ['gh_user', 'gh_token', 'gh_tgt_acct', 'gh_ssh_alias']:
-    if not j.has_key(k) or not type(j[k]) is unicode:
+    if not j.has_key(k):
         raise RuntimeError("malformed configuration file (requires a '" + k + "' key)")
 
 gh_user = j['gh_user']
@@ -90,6 +90,9 @@ for repo in j['repos']:
         # the directory doesn't exist!  We should clone fresh 
         os.system("hg clone \"" + src + "\" \"" + tgt_dir + "\"")
         os.chdir(tgt_dir)
+        # after clone, make a bookmark of default hg branch so master
+        # is created upon push to git
+        os.system("hg bookmark -r default master")
 
     # now, does the repository exist on github?  If not, create it
     pushto = gh_user
