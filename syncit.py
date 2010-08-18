@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import json
+import simplejson
 import sys
 import os
 import urllib2
@@ -23,7 +23,7 @@ if not os.path.isdir(work_dir):
 
 # parse the configuration file
 f = open(cfg_file)
-j = json.load(f)
+j = simplejson.load(f)
 f.close();
 
 # validate config file
@@ -41,7 +41,7 @@ gh_ssh_alias =  j['gh_ssh_alias']
 
 def getExistingGithubRepos(user):
     u = urllib2.urlopen("http://github.com/api/v2/json/repos/show/" + user)
-    r = json.loads(u.read())
+    r = simplejson.loads(u.read())
     return [m["name"] for m in r['repositories']]
 
 def createRepoOnGithub(name, desc, homepage, acct, auth_user, auth_token):
@@ -61,7 +61,7 @@ def createRepoOnGithub(name, desc, homepage, acct, auth_user, auth_token):
     request.add_data(urllib.urlencode(query_args))
 
     print urllib2.urlopen(request).read()
-    raise SystemExit(1)
+    return True
 
 # now let's hit github and get a list of repositories already created there
 # under our target user
