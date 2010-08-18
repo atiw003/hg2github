@@ -14,11 +14,6 @@
     "src": "http://hg.mozilla.org/labs/bespinclient",
     "homepage": "http://mozillalabs.com"
   },
-  "bespinjavaserver": {
-  "desc": "sample desc",
-    "src": "http://hg.mozilla.org/labs/bespinjavaserver",
-    "homepage": "http://mozillalabs.com"
-  },
   "bespinserver": {
   "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/bespinserver",
@@ -54,11 +49,6 @@
     "src": "http://hg.mozilla.org/labs/raindrop",
     "homepage": "http://mozillalabs.com"
   },
-  "raindrop-dev": {
-  "desc": "sample desc",
-    "src": "http://hg.mozilla.org/labs/raindrop-dev",
-    "homepage": "http://mozillalabs.com"
-  },
   "snowl": {
   "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/snowl",
@@ -87,11 +77,6 @@
   "th": {
   "desc": "sample desc",
     "src": "http://hg.mozilla.org/labs/th",
-    "homepage": "http://mozillalabs.com"
-  },
-  "vapour": {
-  "desc": "sample desc",
-    "src": "http://hg.mozilla.org/labs/vapour",
     "homepage": "http://mozillalabs.com"
   },
   "weave-backup": {
