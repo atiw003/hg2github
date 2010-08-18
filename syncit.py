@@ -92,11 +92,12 @@ for repo in j['repos']:
         os.chdir(tgt_dir)
 
     # now, does the repository exist on github?  If not, create it
-    pushto = ''
+    pushto = gh_user
     if repo in existingRepos:
         pushto = gh_tgt_acct
     elif repo in existingReposOops:
-        pushto = gh_user
+        # all output will result in an email message (this script is destined for
+        # a cronjob.)  This message *should* generate a nagging email.
         print 'OOPS, please manually fork repo "http://github.com/' + gh_user + "/" + repo + \
               "' to '"+ "'http://github.com/"+gh_tgt_acct+"/" + repo + "'"
     else:
