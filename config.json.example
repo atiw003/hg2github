@@ -1,4 +1,5 @@
 {
+  "gh_ssh_alias": "github-alias",
   "gh_user": "mozillalabs-syncer",
   "gh_token": "vewy_vewy_sekret",
   "gh_tgt_acct": "mozillalabs",
