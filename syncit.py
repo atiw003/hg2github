@@ -61,7 +61,7 @@ def createRepoOnGithub(name, desc, homepage, acct, auth_user, auth_token):
     request = urllib2.Request("https://github.com/api/v2/json/repos/create")
     request.add_data(urllib.urlencode(query_args))
 
-    print urllib2.urlopen(request).read()
+    urllib2.urlopen(request).read()
     return True
 
 def tryAndWhine(cmd, whinery):
