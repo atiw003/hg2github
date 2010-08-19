@@ -15,7 +15,7 @@ destinations of the syncing.
   http://samba.org/~jelmer/dulwich/
 * hg-git: http://github.com/schacon/hg-git
   (if you have spaces in your mercurial tags, you may want this version:
-   git://github.com/schacon/hg-git)
+   git://github.com/lloyd/hg-git)
 * simplejson for config.json parsing
 
 # Setup and use
