@@ -75,6 +75,6 @@ alias:
   do, anyway. 
 * git allows fewer chars in tags than hg, so if there are tags with spaces in your mercurial
   repository, they won't be properly sync'd.  You'll get error messages like:
-  error: refusing to create funny ref 'refs/tags/last change before major code purge/reorg' remotely
+  `error: refusing to create funny ref 'refs/tags/last change before major code purge/reorg' remotely`
   A solution is to grab the patch from this fork of hg-git:
-  git://github.com/schacon/hg-git
+  git://github.com/lloyd/hg-git
