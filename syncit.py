@@ -96,9 +96,11 @@ for repo in j['repos']:
         # the directory doesn't exist!  We should clone fresh 
         tryAndWhine("hg clone \"" + src + "\" \"" + tgt_dir + "\"", "Failed to clone from " + src)
         os.chdir(tgt_dir)
-        # after clone, make a bookmark of default hg branch so master
-        # is created upon push to git
-        tryAndWhine("hg bookmark -r default master", "Failed to set master 'bookmark'")
+
+    # after clone, make a bookmark of default hg branch so master
+    # is created upon push to git
+    tryAndWhine("hg bookmark -f -r default master",
+                "Failed to set master 'bookmark'")
 
     # now, does the repository exist on github?  If not, create it
     pushto = gh_user
